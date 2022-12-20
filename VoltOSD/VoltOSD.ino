@@ -36,7 +36,6 @@
 #include "OSD_positions_config.h"
 
 #define VERSION "1.0"
-#define BMP_ADDRESS 0x76              // default is 0x77
 #define MAH_CALIBRATION_FACTOR 1.0f   //used to calibrate mAh reading.
 #define SPEED_IN_KILOMETERS_PER_HOUR  //if commented out defaults to m/s
 #define IMPERIAL_UNITS                //Altitude in feet, distance to home in miles.
@@ -140,7 +139,7 @@ void setup() {
   Serial1.begin(115200);
   while (!Serial1);
 
-  analogReadResolution(12);
+  analogReadResolution(12); // SAMD21 12 bit resolution 0 - 4096 range on Analog pin
 
   msp.begin(mspSerial);
   pinMode(LED_BUILTIN, OUTPUT);
