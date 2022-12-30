@@ -8,8 +8,8 @@
 #include <stdint.h>
 
 //currently working elements
-const uint16_t osd_avg_cell_voltage_pos = 2145;
-const uint16_t osd_main_batt_voltage_pos = 2113;
+const uint16_t osd_avg_cell_voltage_pos = 2273;
+const uint16_t osd_main_batt_voltage_pos = 2241;
 const uint16_t osd_crosshairs_pos = 2254;
 const uint16_t osd_craft_name_pos = 2048;
 
