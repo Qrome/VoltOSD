@@ -47,7 +47,7 @@ HardwareSerial &mspSerial = Serial1;
 MSP msp;
 
 static const int pwm_arm_pin = 1;
-static int triggerValue = 1800;
+static int triggerValue = 1600;
 
 boolean lightOn = true;
 

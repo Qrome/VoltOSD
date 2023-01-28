@@ -11,7 +11,7 @@
 const uint16_t osd_avg_cell_voltage_pos = 2273;
 const uint16_t osd_main_batt_voltage_pos = 2241;
 const uint16_t osd_crosshairs_pos = 2254;
-const uint16_t osd_craft_name_pos = 2048;
+const uint16_t osd_craft_name_pos = 2208;
 
 const uint16_t osd_altitude_pos = 234;
 uint16_t osd_gps_sats_pos = 234;
